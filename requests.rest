@@ -1,0 +1,21 @@
+GET http://localhost:3000/posts
+
+###
+
+
+POST http://localhost:4000/api/users/signup
+Content-Type: application/json
+{
+    "name":"user2",
+    "password":"userkjhgkhj2",
+    "email":"user2@gmail.com",
+}
+
+# ###
+
+# POST  http://localhost:4000/api/goals/64d53d2ab068703bec2695ce
+# Content-Type: application/json
+# Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZDUxZTIzNWJmYjc0ZDA3ZTBlNjUxZSIsImlhdCI6MTY5MTY5MzQ5NywiZXhwIjoxNjkyMjk4Mjk3fQ.FyImQa2iNagBNQb8MqHAn4ObPK1doZiAp5vn4Ld5oF8"
+# {
+#     "text":"helloworld"
+# }
